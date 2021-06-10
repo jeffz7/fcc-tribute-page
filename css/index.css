@@ -1,0 +1,56 @@
+#main{
+    font-family: 'Quicksand', 'emoji', sans-serif;    
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;  
+    width: 100%;
+    background-color: #000000;
+    color: white;
+}
+
+#sub-title {
+    padding: 0;
+    position: relative;
+    top: -2rem;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+}
+
+#image {
+    width: 90%;
+    align-self: center;
+    max-width: 1920px;
+}
+
+#img-caption {
+    padding: 0 2rem;
+    text-align: center;
+    opacity: 0.9;
+    font-size: 0.9rem;
+}
+
+#tribute-info {
+    padding: 2.5rem;
+    text-align: justify;
+}
+
+footer{
+    width: 100%;
+    background-color:#000000;
+    position: absolute;
+    height: 50px;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+}
